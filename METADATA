@@ -1,0 +1,17 @@
+name: "flex"
+description:
+    "The Fast Lexical Analyzer - scanner generator for lexing in C and C++"
+
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "http://flex.sourceforge.net/"
+  }
+  url {
+    type: GIT
+    value: "https://github.com/westes/flex"
+  }
+  version: "flex-2.5.39"
+  last_upgrade_date { year: 2018 month: 5 day: 22 }
+  license_type: NOTICE
+}
